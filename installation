@@ -1,0 +1,4 @@
+sudo apt update sudo apt upgrade
+cd artela
+cd journalctl -u artelad -f -o cat
+artelad tx stacking $(keyshow wallet --artavaloper)
